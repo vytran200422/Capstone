@@ -257,8 +257,13 @@ header a:hover {
         background-color: var(--secondary-color);
     }
 
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        background-color: var(--secondary-color);
+    }
+
     .navbar-nav .dropdown-menu .dropdown-item {
         font-size: 10px;
+        color: var(--black-white-color);
     }
 
     header .navbar form input {
@@ -291,8 +296,13 @@ header a:hover {
         background-color: var(--secondary-color);
     }
 
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        background-color: var(--secondary-color);
+    }
+
     .navbar-nav .dropdown-menu .dropdown-item {
         font-size: 18px;
+        color: var(--black-white-color);
     }
 }
 
@@ -318,8 +328,13 @@ header a:hover {
         background-color: var(--secondary-color);
     }
 
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        background-color: var(--secondary-color);
+    }
+
     .navbar-nav .dropdown-menu .dropdown-item {
         font-size: 18px;
+        color: var(--black-white-color);
     }
 
 }
@@ -329,6 +344,12 @@ header a:hover {
         position: absolute;
         z-index: 99;
         width: 100%;
+    }
+
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 100;
     }
 }
 
@@ -342,10 +363,24 @@ header a:hover {
         background-color: var(--secondary-color);
     }
 
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        background-color: var(--secondary-color);
+    }
+
+    .navbar-nav .dropdown-menu .dropdown-item {
+        color: var(--black-white-color);
+    }
+
     #switchButton {
         position: absolute;
         right: 10px;
         top: 45px;
+    }
+
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 100;
     }
 
 }
@@ -358,6 +393,12 @@ header a:hover {
     header .navbar {
         padding: 0 20px;
         background-color: var(--secondary-color);
+    }
+
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 100;
     }
 }
 
