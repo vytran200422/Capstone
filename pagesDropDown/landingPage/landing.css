@@ -49,8 +49,60 @@
   background-color: #eee;
   color: #060e1f;
 }
+.dark .header-nav i {
+  color: #060e1f !important;
+}
 .dark .header-nav .header-navbar .navbar a,i,button {
+  color: #060e1f !important ;
+}
+.dark .header-logo span {
   color: #060e1f ;
+}
+.dark .wel-title .main-title {
+  color: #060e1f;
+}
+.dark .welcome .wel-item .wel-content h4,p {
+  color: #060e1f !important;
+}
+.dark .class-info .class-content p,i {
+  color: #fff !important;
+}
+.dark .number-title h1 {
+  color: #060e1f !important;
+}
+.dark .number-countup h1 {
+  color: #060e1f !important;
+}
+.dark .feedback .feedback-title h1 {
+  color: #060e1f;
+}
+.dark .feedback .feedback-item p {
+  color: #fff !important;
+}
+.dark .instructor .instructor-title h1 {
+  color: #060e1f;
+}
+.dark .instructor .instr-name h5,p {
+  color: #060e1f !important;
+}
+.dark .instructor .instr-item:hover i {
+  color: #060e1f !important;
+}
+.dark .LandingPageContact {
+  border: 1px solid #060e1f;
+  border-radius: 5px;
+}
+.dark .LandingPageContact .cont-details .cont-right h6,a {
+  color: #060e1f !important;
+}
+.dark .footer_top {
+  background-color: #fff;
+}
+.dark .footer_top .right_text h4,p {
+ color:#060e1f ;
+}
+.dark .footer_bot a,p {
+  color: #fff !important;
 }
 /* contact  */
 .header-contact {

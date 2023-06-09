@@ -43,6 +43,9 @@
   display: block;
   color: #4867b0;
 }
+.dark .header-logo a {
+  color: #060e1f;
+}
 .dark .header-nav {
   background-color: #eee;
   color: #060e1f;
@@ -69,7 +72,24 @@ h4,
 h5 {
   color: #060e1f;
 }
-
+.dark  .components .compo-content h4 {
+  color: #060e1f;
+}
+.dark .bd-example {
+  color: #fff;
+}
+.dark .bd-example h1,h2,h3,h4,h5,h6 {
+  color: #060e1f;
+}
+.dark .nt {
+  color: #060e1f;
+}
+.dark .footer_top {
+  background-color: #fff;
+}
+.dark .footer_top .right_text h4,p {
+ color:#060e1f ;
+}
 /* contact  */
 .header-contact {
   background-color: #4867b0;
